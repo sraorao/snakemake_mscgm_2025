@@ -1,0 +1,25 @@
+host: srao-Precision-Tower-7810
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                    count
+-------------------  -------
+generate_data_files        1
+total                      1
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Feb  5 16:26:10 2026]
+localrule generate_data_files:
+    output: data_wildcards/snakemake_input_0.txt, data_wildcards/snakemake_input_1.txt, data_wildcards/snakemake_input_2.txt, data_wildcards/snakemake_input_3.txt, data_wildcards/snakemake_input_4.txt, data_wildcards/snakemake_input_5.txt, data_wildcards/snakemake_input_6.txt, data_wildcards/snakemake_input_7.txt, data_wildcards/snakemake_input_8.txt, data_wildcards/snakemake_input_9.txt
+    jobid: 0
+    reason: Missing output files: data_wildcards/snakemake_input_9.txt, data_wildcards/snakemake_input_7.txt, data_wildcards/snakemake_input_0.txt, data_wildcards/snakemake_input_4.txt, data_wildcards/snakemake_input_8.txt, data_wildcards/snakemake_input_2.txt, data_wildcards/snakemake_input_1.txt, data_wildcards/snakemake_input_6.txt, data_wildcards/snakemake_input_5.txt, data_wildcards/snakemake_input_3.txt
+    resources: tmpdir=/tmp
+
+[Thu Feb  5 16:26:11 2026]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: .snakemake/log/2026-02-05T162610.627067.snakemake.log
